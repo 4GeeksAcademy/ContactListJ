@@ -1,0 +1,47 @@
+body{
+   
+    background-color: rgb(117, 239, 248);
+}
+
+
+.botonAdd{
+    display: flex;
+    justify-content: end; 
+    border: 3px solid rgb(0, 132, 255);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* EDIT CARD */
+ 
+/*col imagenes*/
+.contact1{
+    height: 250px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+/*col datos*/
+.nombreuser{
+    display: inline-block;
+}
+
+/*col editar y borrar*/
+#icononame{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+#nameid{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#editicon,#deleteicon{
+    font-size: 50px;
+}
+
+#deleteicon{
+    color: red;
+}
