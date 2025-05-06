@@ -40,7 +40,7 @@ export const AddContact = ()=>{
 
 
   return (
-    <div className="container">
+    <div className="container mt-5">
      
       <div className="card p-5">
         <h1>Agregar un contacto: </h1>
@@ -56,12 +56,13 @@ export const AddContact = ()=>{
       </div>
 
    
-      <button onClick={newContact}>Crear contacto</button>
-
-      <div>
+      
+      <div className="d-flex justify-content-center align-items-center gap-4 mt-5">
           <Link to="/">
-            <button className="btn btn-primary">Back con</button>
+            <button className="addBtn">Contactos</button>
           </Link>
+
+          <button onClick={newContact} className="addBtn">Crear contacto</button>
       </div>
       
     </div>

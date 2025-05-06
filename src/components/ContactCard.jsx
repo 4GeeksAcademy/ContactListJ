@@ -29,7 +29,7 @@ export const ContactCard = ({ contact }) => {
 
     return (
 
-        <div className="container">
+        <div className="container mt-5">
             <div className="card ">
                 <div className="row">
                     <div className="col-md-2">

@@ -1,9 +1,14 @@
 body{
    
-    background-color: rgb(117, 239, 248);
+    background-color: rgb(59, 163, 248);
 }
 
-
+.addBtn{
+    border:3px solid rgb(0, 110, 255);
+    box-shadow: 1px 1px 5px ;
+    border-radius: 5px;
+    background-color: rgb(111, 175, 247);
+}
 .botonAdd{
     display: flex;
     justify-content: end; 
