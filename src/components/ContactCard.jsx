@@ -6,7 +6,6 @@ export const ContactCard = ({ contact }) => {
 
     const { store, dispatch } = useGlobalReducer()
     
-    
     const deleteContact = () => {
         fetch(`https://playground.4geeks.com/contact/agendas/java/contacts/${contact.id}`, {
             method: "DELETE",
@@ -23,9 +22,6 @@ export const ContactCard = ({ contact }) => {
             console.log(err);
         })
     }
-
-
-
 
     return (
 
